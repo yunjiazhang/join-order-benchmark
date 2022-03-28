@@ -29,7 +29,7 @@ found at [http://www.imdb.com/interfaces](http://www.imdb.com/interfaces)
 3. create PostgreSQL database (e.g., name imdbload):
 
   ```sh
-  createdb imdbload
+  createdb imdbload (Note: use utf8 locale and template0 for postgresql)
   ```
 
 4. transform `*gz` files to relational schema (takes a while)
